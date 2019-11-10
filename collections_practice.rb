@@ -53,3 +53,10 @@ end
 def sum_array(array)
   array.inject{|sum, a| sum + a}
 end
+
+def add_s(array)
+  array.each_with_index.collect{|element, i| 
+  if i != 1
+  element << "s"}
+end
+
