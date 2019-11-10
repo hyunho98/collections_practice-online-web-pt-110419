@@ -40,3 +40,10 @@ def kesha_maker(array)
 
   newArray
 end
+
+def find_a(array)
+  startsWithA = []
+
+  array.each{|i|
+  startswithA << i if i.start_with?("a")}
+end
