@@ -49,3 +49,7 @@ def find_a(array)
 
   startsWithA
 end
+
+def sum_array(array)
+  array.inject{|sum, a| sum + a}
+end
