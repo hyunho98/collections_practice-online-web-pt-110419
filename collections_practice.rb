@@ -45,7 +45,7 @@ def find_a(array)
   startsWithA = []
 
   array.each{|i|
-  startswithA << i if i.start_with?("a")}
+  startsWithA << i if i.start_with?("a")}
 
   startsWithA
 end
